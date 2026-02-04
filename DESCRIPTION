@@ -1,0 +1,18 @@
+Package: baecontemplate
+Title: pkgdown Templates for baeconverse Packages
+Version: 0.0.0.9000
+Authors@R:
+    person(given = "Young Geun",
+           family = "Kim",
+           email = "ygeunkimstat@gmail.com",
+           role = c("aut", "cre", "cph"),
+           comment = c(ORCID = "0000-0001-8651-1167"))
+Description: This is a pkgdown template for baeconverse packages.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.3.3
+Suggests: 
+    knitr,
+    rmarkdown
+VignetteBuilder: knitr

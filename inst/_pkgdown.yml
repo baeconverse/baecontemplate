@@ -1,0 +1,21 @@
+template:
+  bslib:
+    bg: "#272935"
+    fg: "#f8f8f2"
+    primary: "#ff3860"
+    secondary: "#23252f"
+    base_font: {google: "Noto Sans"}
+    code_font: {google: "Anonymous Pro"}
+    code-bg: "#44475a"
+    code-color: "#f8f8f2"
+
+development:
+  mode: auto
+
+# code:
+#   width: 71
+
+navbar:
+  type: light
+  bg: none
+

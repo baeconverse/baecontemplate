@@ -1,0 +1,27 @@
+# Retrieved 2017-Oct-12 from https://github.com/github/gitignore/blob/master/R.gitignore
+# Licensed under CC0-1.0 https://github.com/github/gitignore/blob/master/LICENSE
+
+# History files
+.Rhistory
+.Rapp.history
+
+# Session Data files
+.RData
+
+# Example code in package build process
+*-Ex.R
+
+# Output files from R CMD build
+/*.tar.gz
+
+# Output files from R CMD check
+/*.Rcheck/
+
+# RStudio files
+.Rproj.user/
+
+# VScode files
+.vscode/
+
+docs
+inst/doc

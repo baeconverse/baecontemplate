@@ -1,0 +1,17 @@
+template:
+  package: baecontemplate
+  bootstrap: 5
+
+url: ~
+# url: https://baecontemplate.baeconverse.org
+
+reference:
+- title: Package
+  desc: >
+    The baecontemplate package
+  contents:
+  - baecontemplate-package
+
+- title: Functions
+  contents:
+  - baecontemplate_fun
