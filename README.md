@@ -5,8 +5,13 @@
 
 <!-- badges: start -->
 
+[![R-CMD-check](https://github.com/baeconverse/baecontemplate/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/baeconverse/baecontemplate/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 ## Overview
 
 `baecontemplate` is the pkgdown template for baeconverse packages.
+
+In R package, add the following in `DESCRIPTION`:
+
+    Config/Needs/website: baeconverse/baecontemplate

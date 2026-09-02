@@ -1,0 +1,13 @@
+if(!exists("meta") || is.null(meta)) {meta <- packageDescription("baecontemplate")}
+note <- sprintf("R package version %s", meta$Version)
+
+bibentry(
+  bibtype = "Manual",
+  title = "{baecontemplate}: 'pkgdown' Templates for 'baeconverse' Packages",
+  author = c(
+    person(given = "Young Geun", family = "Kim")
+  ),
+  year = "2026",
+  note = note,
+  url = "https://github.com/baeconverse/baecontemplate"
+)

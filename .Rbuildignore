@@ -3,3 +3,6 @@
 ^docs$
 ^pkgdown$
 ^README\.Rmd$
+^\.vscode$
+^logo$
+^\.github$

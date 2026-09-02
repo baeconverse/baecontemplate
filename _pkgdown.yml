@@ -5,6 +5,10 @@ template:
 url: ~
 # url: https://baecontemplate.baeconverse.org
 
+authors:
+  Young Geun Kim:
+    href: https://ygeunkim.github.io
+
 reference:
 - title: Package
   desc: >

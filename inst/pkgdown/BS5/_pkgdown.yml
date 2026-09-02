@@ -1,13 +1,28 @@
 template:
+  bootstrap: 5
+  # math-rendering: mathjax
   bslib:
-    bg: "#272935"
-    fg: "#f8f8f2"
+    bg: "#f8f8f2"
+    fg: "#272935"
     primary: "#ff3860"
-    secondary: "#23252f"
+    # secondary: "#23252f"
     base_font: {google: "Noto Sans"}
-    code_font: {google: "Anonymous Pro"}
-    code-bg: "#44475a"
-    code-color: "#f8f8f2"
+    code_font: {google: "Source Code Pro"}
+    font_scale: 1.2
+    # code-bg: "#44475a"
+    # code-color: "#f8f8f2"
+    # navbar-light-bg: "#b3cde0"
+    # navbar-dark-bg: "#b3cde0"
+  # theme: github-light
+  # theme-dark: github-dark
+  light-switch: true
+  # includes:
+  #   in_header: <!-- inserted at the end of the head -->
+  #   before_body: <!-- inserted at the beginning of the body -->
+  #   after_body: <!-- inserted at the end of the body -->
+  #   before_title: <!-- inserted before the package title in the header ->
+  #   before_navbar: <!-- inserted before the navbar links -->
+  #   after_navbar: <!-- inserted after the navbar links -->
 
 development:
   mode: auto
@@ -16,6 +31,23 @@ development:
 #   width: 71
 
 navbar:
-  type: light
-  bg: none
+  # structure:
+  #   left: [intro, reference, articles, tutorials, news, publication, research]
+  #   # left:  [intro, reference, articles, tutorials, news]
+  #   right: [search, github, lightswitch]
+  # type: light
+  bg: primary
 
+footer:
+  structure: 
+    left: developed_by
+    right: built_with
+  # structure: 
+  #   left: pkgdown
+  #   right: [developed_by, legal]
+  # components:
+  #   legal: Provided without **any warranty**.
+
+authors:
+  Young Geun Kim:
+    href: https://ygeunkim.github.io

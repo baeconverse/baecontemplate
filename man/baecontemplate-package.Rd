@@ -10,8 +10,21 @@
 
 This is a pkgdown template for baeconverse packages.
 }
+\seealso{
+Useful links:
+\itemize{
+  \item \url{https://github.com/baeconverse/baecontemplate}
+  \item Report bugs at \url{https://github.com/baeconverse/baecontemplate/issues}
+}
+
+}
 \author{
 \strong{Maintainer}: Young Geun Kim \email{ygeunkimstat@gmail.com} (\href{https://orcid.org/0000-0001-8651-1167}{ORCID}) [copyright holder]
+
+Authors:
+\itemize{
+  \item Young Geun Kim \email{ygeunkimstat@gmail.com} (\href{https://orcid.org/0000-0001-8651-1167}{ORCID}) [copyright holder]
+}
 
 }
 \keyword{internal}
