@@ -1,0 +1,6 @@
+# Vignette
+
+``` r
+
+library(baecontemplate)
+```
