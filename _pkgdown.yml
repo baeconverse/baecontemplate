@@ -2,8 +2,7 @@ template:
   package: baecontemplate
   bootstrap: 5
 
-url: ~
-# url: https://baecontemplate.baeconverse.org
+url: https://baecontemplate.baeconverse.org
 
 authors:
   Young Geun Kim:
