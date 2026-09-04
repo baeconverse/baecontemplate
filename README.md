@@ -15,3 +15,9 @@
 In R package, add the following in `DESCRIPTION`:
 
     Config/Needs/website: baeconverse/baecontemplate
+
+In `_pkgdown.yml`:
+
+    template:
+      package: baecontemplate
+      bootstrap: 5
